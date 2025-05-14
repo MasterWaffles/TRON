@@ -1,13 +1,10 @@
-# Tron Light Cycle Game
-# Demonstrates Pygame usage, class organization, and keyboard/mouse interaction
-
 import pygame
 import sys
 from enum import Enum
 import random
 
 
-# Direction enumeration for cycle movement
+# Direction for cycle movement
 class Direction(Enum):
     UP = (0, -1)
     DOWN = (0, 1)
